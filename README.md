@@ -12,7 +12,7 @@ link to live website https://jameskaloki2000.github.io/Lokis-porfolio-website/.
 
 {No installation requirements}
 ## Known Bugs
-{Non-Applicable }
+{Non-Applicable  }
 ## Technologies Used
 {Technologies used are , HTML,CCS}
 ## Support and contact details
