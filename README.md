@@ -8,7 +8,7 @@
 * A search engine.
 * Windows,Linux and Mac OS.
 *
-link to live website https://jameskaloki2000.github.io/Mylivewebsite.repo/
+link to live website https://jameskaloki2000.github.io/Lokis-porfolio-website/.
 
 {No installation requirements}
 ## Known Bugs
