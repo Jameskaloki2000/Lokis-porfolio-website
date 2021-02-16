@@ -54,7 +54,7 @@ table {
     --fs-h3:1.5rem;
     --fs-h3:1.25rem;
     --clr-light:#fff;
-    --clr-accent:hsla(217, 42%, 44%, 0.418);
+    --clr-accent:hsla(124, 44%, 29%, 0.233);
     /* --clr-accent:lighblue; */
 }
 @media (min-width: 850px){
