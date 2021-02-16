@@ -54,8 +54,8 @@ table {
     --fs-h3:1.5rem;
     --fs-h3:1.25rem;
     --clr-light:#fff;
-    --clr-dark:#5c8ddb;
-    --clr-accent:gold;
+    --clr-accent:hsla(217, 42%, 44%, 0.418);
+    /* --clr-accent:lighblue; */
 }
 @media (min-width: 850px){
 :root{
@@ -154,7 +154,7 @@ h3{
 
     }
     .section__title--services{
-        color: var(--clr-accent);
+        color: black;
         position: relative;
         display: block;
         text-decoration: underline black 2px;
@@ -187,7 +187,7 @@ h3{
         letter-spacing: 3px;
          cursor: pointer;
          transition: transform 200ms ease-in-out;
-         margin-bottom: 10px;
+         margin-bottom: 30px;
     }
     .btn:active{
         background-color: darkgoldenrod;
@@ -217,16 +217,28 @@ h3{
         grid-area: title;
         
     }
-    /* .my-work{
-        /* background-color: var(--clr-dark) ; */
+    .my-work{
+         background-color: white;
         text-align: center;
-        color: var(--clr-light);
+        color: black; 
     }
-    /* .section__subtitle--work{
-        color: var(--clr-accent);
+    .section__subtitle--work{ 
+        
         line-height: 1.2em;
-    }
+        margin-bottom:  10px 30px;
+        }
     .portfolio{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minimax(280px,1fr));
-    }  */ */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        background:darkgray;
+    } 
+    
+    
+    .portfolio__item{
+        background:#2e2b2d;
+
+    }
+    .portfolio{
+        transition:transform 750ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    
