@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+:root{
+    --ff-primary: "Source Sans Pro", sans-serif;
+
+    --fs-h1:3rem;
+    --fs-h2 :2.5rem;
+    --fs-h3:1.5rem;
+    --fs-h3:1.25rem;
+    --clr-light:#fff;
+    --clr-dark:#5c8ddb;
+    --clr-accent:gold;
+}
+@media (min-width: 850px){
+:root{
+    --fs-h1: 4.5rem;
+    --fs-h2:3.75rem;
+    --fs-h3:1.5rem;
+    --fs-body:1rem;
+}
+}
+body {
+    background: white;
+    font-family: var(--ff-primary);
+    line-height: 1.6;
+    font-size :var(--fs-body);
+
+}
+img {
+    display: block;
+    max-width: 100%;
+    
+
+}
+h1,h2,h3{
+    line-height: 1.0;
+    font-family: sans-serif;
+}
+h1{
+    font-size: var(--fs-h1);
+}
+h2{
+    font-size: var(--fs-h2);
+}
+h3{
+    font-size: var(--fs-h3);
+}
+ .section__title{
+     margin-bottom: 20px;
+ }
+ .section__subtitle{
+     background: var(--clr-accent);
+     margin-bottom: 10px;
+     font-size: var(--fs-h3);
+ }
+ .section__subtitle--intro
+ ,.section__subtitle--about{
+     background :var(--clr-accent);
+     font-weight: 300;
+     font-family: var(--fs-primary);
+     margin-bottom: 15px;
+     padding: 10px 0;
+     text-decoration: underline;
+ }
+ .section__title--intro{
+     font-weight: 100;
+ }
+ strong{
+     font-weight: 800;
+     display: block;
+ }
+ .intro{
+     position: relative;
+ }
+ @media(min-width:600px){
+     .intro{
+         display: grid;
+         width: min-content;
+         margin: 30px auto;
+         grid-column-gap: 1em;
+         grid-template-areas: "img title""image subtitle";
+         grid-template-columns: min-content max-content;
+
+     }
+
+ }
+
+.intro__img{
+    grid-area: img;
+    min-width: 300px;
+
+    
+}
+    
+
+    .section__subtitle--intro{
+        align-self: start;
+    }
+
+/* 
+    service */
+    .my-services{
+        background-color: var(--clr-dark);
+        background-image: url("https://cnet4.cbsistatic.com/img/lMRPUYSlK8PjM1NtMOkCRZl-8hY=/1200x675/2016/06/16/5d3ef288-7242-4081-80d5-087e75c677ac/hp-spectre-2016-12.jpg");
+        background-size: cover;
+        color: var(--clr-light);
+        text-align: center;
+
+    }
+    .section__title--services{
+        color: var(--clr-accent);
+        position: relative;
+        display: block;
+        text-decoration: underline black 2px;
+        
+    }
+    .section__title--services::after{
+        content: '';
+        display: block;
+        width: 3em;
+        height: 1px;
+        margin: 1.0em auto 1em;
+        
+    }
+    @media(min-width: 800px){
+        .section__title--div{
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+    }
+    .services{
+        margin-bottom:  20px;
+    }
+    .btn{
+        display: inline-block;
+        padding: .5em 1.5em;
+        background: var(--clr-accent);
+        font-size: 10px;
+        letter-spacing: 3px;
+         cursor: pointer;
+         transition: transform 200ms ease-in-out;
+         margin-bottom: 10px;
+    }
+    .btn:active{
+        background-color: darkgoldenrod;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    .about-me{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    @media(min-width :600px){
+        .about-me{
+            display: grid;
+            grid:1fr 200px ;
+            grid-template-areas: "title img""subtitle img""text img";
+
+        }
+    }
+    .about-me__img{
+        grid-row: 1/-1;
+        grid-column: 2;
+        grid-area: img;
+        box-shadow: 5px 10px black;
+    }
+    .section__subtitle--about{
+        grid-area: title;
+        
+    }
