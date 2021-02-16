@@ -255,11 +255,11 @@ h3{
   .nav{
       background: white;
       position: fixed;
-      z z-index: 100;
   }
   .nav__list{
       display: flex;
       height: 100;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-around;
+      background:var(--clr-accent);
   }
