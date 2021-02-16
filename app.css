@@ -217,3 +217,12 @@ h3{
         grid-area: title;
         
     }
+    .my-work{
+        /* background-color: var(--clr-dark) ; */
+        text-align: center;
+        color: var(--clr-light);
+    }
+    .section__subtitle--work{
+        color: var(--clr-accent);
+        line-height: 1.2em;
+    }
