@@ -147,10 +147,13 @@ h3{
     service */
     .my-services{
         background-color: var(--clr-dark);
-        background-image: url("https://cnet4.cbsistatic.com/img/lMRPUYSlK8PjM1NtMOkCRZl-8hY=/1200x675/2016/06/16/5d3ef288-7242-4081-80d5-087e75c677ac/hp-spectre-2016-12.jpg");
+        background-image: url("https://i.pcmag.com/imagery/reviews/00uwiwERhM15aoADGVjjUUy-1..1602855952.jpg");
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         color: var(--clr-light);
         text-align: center;
+        
 
     }
     .section__title--services{
@@ -229,7 +232,7 @@ h3{
         }
     .portfolio{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, 1fr);
         background:black;
     } 
     
