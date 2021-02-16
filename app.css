@@ -214,7 +214,7 @@ h3{
         box-shadow: 5px 10px black;
     }
     .section__subtitle--about{
-        grid-area: title;
+        margin-bottom: 15px;
         
     }
     .my-work{
@@ -285,4 +285,5 @@ h3{
   }
   .nav-item{
       margin-right: 10px;
+      color: black;
   }
