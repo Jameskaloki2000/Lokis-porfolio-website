@@ -285,5 +285,8 @@ h3{
   }
   .nav-item{
       margin-right: 10px;
+      
+  }
+  .navcontent{
       color: black;
   }
