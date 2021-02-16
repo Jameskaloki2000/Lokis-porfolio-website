@@ -241,4 +241,25 @@ h3{
     .portfolio{
         transition:transform 750ms cubic-bezier(0.075, 0.82, 0.165, 1);
     }
+
+  /* nav */
+  .logo{
+      max-width: 150px;
+  }
     
+  header{
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+  }
+  .nav{
+      background: white;
+      position: fixed;
+      z z-index: 100;
+  }
+  .nav__list{
+      display: flex;
+      height: 100;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
