@@ -230,12 +230,12 @@ h3{
     .portfolio{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        background:darkgray;
+        background:var(--clr-accent);
     } 
     
     
     .portfolio__item{
-        background:#2e2b2d;
+        background:var(--clr-accent);
 
     }
     .portfolio{
