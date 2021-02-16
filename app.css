@@ -217,12 +217,16 @@ h3{
         grid-area: title;
         
     }
-    .my-work{
+    /* .my-work{
         /* background-color: var(--clr-dark) ; */
         text-align: center;
         color: var(--clr-light);
     }
-    .section__subtitle--work{
+    /* .section__subtitle--work{
         color: var(--clr-accent);
         line-height: 1.2em;
     }
+    .portfolio{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minimax(280px,1fr));
+    }  */ */
