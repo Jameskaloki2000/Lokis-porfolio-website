@@ -220,7 +220,7 @@ h3{
     .my-work{
          background-color: white;
         text-align: center;
-        color: black; 
+        color: #111;; 
     }
     .section__subtitle--work{ 
         
@@ -230,12 +230,12 @@ h3{
     .portfolio{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        background:var(--clr-accent);
+        background:black;
     } 
     
     
     .portfolio__item{
-        background:var(--clr-accent);
+        background:#112;
 
     }
     .portfolio{
@@ -262,4 +262,24 @@ h3{
       flex-direction: row;
       justify-content: space-around;
       background:var(--clr-accent);
+  }
+
+  /* footer */
+  .footer{
+      background: #111;
+      color: var(--clr-accent);
+      text-align: center;
+      padding: 15px 0;
+  }
+  .footer a{
+      color: inherit;
+  }
+  .social-list{
+      display: flex;
+      justify-content: center;
+      margin:10px  0;
+  }
+  .social-item{
+      margin:0 15px;
+      
   }
